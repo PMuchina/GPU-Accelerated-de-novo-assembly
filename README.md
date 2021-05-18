@@ -4,9 +4,8 @@
 
 * [Introduction](#introduction)
 * [Requirements](#requirements)
-* [GPU-platforms](#gpu-platforms)
+* [GPU platforms](#gpu-platforms)
 * [Method](#method)
-* [Quick usage](#quick-usage)
 * [Full usage](#full-usage)
 * [License](#license)
 
