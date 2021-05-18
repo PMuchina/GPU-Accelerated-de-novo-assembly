@@ -7,5 +7,16 @@
 * [Method](#method)
 * [Quick usage](#quick-usage)
 * [Full usage](#full-usage)
-* [Citation](#citation)
 * [License](#license)
+
+
+
+
+## Requirements
+
+[Cudamapper](https://github.com/clara-parabricks/GenomeWorks)
+[Miniasm](https://github.com/lh3/miniasm) 
+[Minipolish](https://github.com/rrwick/Minipolish)
+[minimap2](https://github.com/lh3/minimap2)
+[Racon](https://github.com/isovic/racon)
+[Cudapoa](https://github.com/clara-parabricks/GenomeWorks)
