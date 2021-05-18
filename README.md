@@ -11,6 +11,9 @@
 
 
 
+## Introduction
+
+<p align="center"><img src="Images/pipeline.png" alt="Minipolish" width="600"></p>
 
 ## Requirements
 
