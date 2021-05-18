@@ -25,7 +25,7 @@
 * [Racon](https://github.com/isovic/racon)
 * [Cudapoa](https://github.com/clara-parabricks/GenomeWorks)
 
-## GPU Platforms Used
+## GPU-Platforms 
 
 #### Jetson nano
 ![alt Jetson nano](https://cdn.shopify.com/s/files/1/0066/9686/1780/products/Jatson_Nano_2_da68bde9-0d42-4949-86e8-c4fccb83c015_800x.jpg?v=1561185723)
