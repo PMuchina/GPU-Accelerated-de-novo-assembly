@@ -13,7 +13,7 @@
 
 ## Introduction
 
-<p align="center"><img src="Images/pipeline.png" alt="Pipeline" width="2000"></p>
+<p align="center"><img src="Images/pipeline.png" alt="Pipeline" width="2000" height="2000"></p>
 
 ## Requirements
 
