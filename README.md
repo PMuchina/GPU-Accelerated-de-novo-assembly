@@ -27,7 +27,11 @@
 
 ## GPU Platforms Used
 
+#### Jetson nano
 ![alt Jetson nano](https://cdn.shopify.com/s/files/1/0066/9686/1780/products/Jatson_Nano_2_da68bde9-0d42-4949-86e8-c4fccb83c015_800x.jpg?v=1561185723)
+
+#### Geforce RTX 2070
+![alt Geforce RTX 2070](https://d12prgon3aw7l1.cloudfront.net/5178545_rtx2070_1000x755.jpg)
 
 ## License
 
