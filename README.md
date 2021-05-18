@@ -14,7 +14,7 @@
 
 ## Requirements
 
-[Cudamapper](https://github.com/clara-parabricks/GenomeWorks)
+[Cudamapper](# https://github.com/clara-parabricks/GenomeWorks)
 [Miniasm](https://github.com/lh3/miniasm) 
 [Minipolish](https://github.com/rrwick/Minipolish)
 [minimap2](https://github.com/lh3/minimap2)
