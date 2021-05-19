@@ -35,3 +35,5 @@
 ## License
 
 [MIT License](https://choosealicense.com/licenses/mit/)
+
+![](https://cdn.mathpix.com/snip/images/HmYmTGoJFNWdwW3LZ_AH4uX4_x1skTVJsuyIheb0XOM.original.fullsize.png)
