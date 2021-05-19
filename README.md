@@ -6,7 +6,7 @@
 * [Requirements](#requirements)
 * [GPU platforms](#gpu-platforms)
 * [Method](#method)
-* [Full usage](#full-usage)
+* [Results](#results)
 * [License](#license)
 
 
@@ -33,6 +33,10 @@
 ![alt Geforce RTX 2070](https://cdn.mos.cms.futurecdn.net/Sjm3NxT48N8qVupQerfKhg.jpg)
 
 ## Method
+
+
+
+## Results
 
 ![](https://cdn.mathpix.com/snip/images/HmYmTGoJFNWdwW3LZ_AH4uX4_x1skTVJsuyIheb0XOM.original.fullsize.png)
 
