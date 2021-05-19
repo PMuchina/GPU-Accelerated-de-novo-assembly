@@ -46,6 +46,8 @@ The pipeline was first tested on a [jetson nano](https://developer.nvidia.com/em
 
 ## Results
 
+![](https://cdn.mathpix.com/snip/images/b_9k8U1u4MBFmZfisMNtNnRZg87b-RqKIat0jP8OWXg.original.fullsize.png)
+
 ![](https://cdn.mathpix.com/snip/images/HmYmTGoJFNWdwW3LZ_AH4uX4_x1skTVJsuyIheb0XOM.original.fullsize.png)
 
 ![](https://cdn.mathpix.com/snip/images/gAmkpBFObJ9_w3ca11xiDV4z8vxLVX0O-Le1TAexxVM.original.fullsize.png)
