@@ -32,8 +32,17 @@
 #### Geforce RTX 2070
 ![alt Geforce RTX 2070](https://cdn.mos.cms.futurecdn.net/Sjm3NxT48N8qVupQerfKhg.jpg)
 
+## Method
+
+![](https://cdn.mathpix.com/snip/images/HmYmTGoJFNWdwW3LZ_AH4uX4_x1skTVJsuyIheb0XOM.original.fullsize.png)
+
+![](https://cdn.mathpix.com/snip/images/gAmkpBFObJ9_w3ca11xiDV4z8vxLVX0O-Le1TAexxVM.original.fullsize.png)
+
+![](https://cdn.mathpix.com/snip/images/qrjZ66sNDiafP9fNmIbxEVILDsYUSdYAyTPksrQzAvo.original.fullsize.png)
+
+
+
 ## License
 
 [MIT License](https://choosealicense.com/licenses/mit/)
 
-![](https://cdn.mathpix.com/snip/images/HmYmTGoJFNWdwW3LZ_AH4uX4_x1skTVJsuyIheb0XOM.original.fullsize.png)
