@@ -41,6 +41,8 @@ We developed a pipeline that accerelates the overlap step using [Cudamapper](htt
 
 To test the pipeline, we used the [African Swine Fever Virus (ASFV)](https://mra.asm.org/content/9/44/e00948-20) genome which is double stranded with a size of 170 to 194 kbp. Data used was from a Virulent African Swine Fever Virus from a Domestic Pig in Ukraine under the SRA accession number [SRX6477592](https://www.ncbi.nlm.nih.gov/sra/SRX6477592[accn]). The preprocess step involved mapping the reads to the Sus scrofa 11 reference genome [GCA_000003025](https://www.ncbi.nlm.nih.gov/assembly/?term=GCF_000003025) to remove reads likely originating from the host. [minimap2](https://github.com/lh3/minimap2) map long noisy genomic reads was used at this step. The SAM output was converted to BAM using [Samtools](http://www.htslib.org/). Umapped reads were filtered out using samtools and converted to fastq format. [Porechop](https://github.com/rrwick/Porechop) was used to trim adaptors discard and sequences with middle adapters. The chopped unmapped fastq reads were used as the input in the pipeline.
 
+The pipeline was first tested on a [jetson nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit), a small powerful light weight GPU enabled platform. To bench mark the pipeline alongside other mainstream long-read *de novo* assemblers, we moved to a [Geforce RXT 2070](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2070/). We compared our pipeline with: [Flye](https://github.com/fenderglass/Flye), [Raven](https://github.com/lbcb-sci/raven) and [Redbean](https://github.com/ruanjue/wtdbg2). To assess the assemblies, we used [Quast](http://quast.sourceforge.net/).
+
 
 ## Results
 
