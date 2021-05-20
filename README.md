@@ -56,7 +56,7 @@ We used the [reference genome](https://www.ncbi.nlm.nih.gov/nuccore/MN194591) fr
 
 ![](https://cdn.mathpix.com/snip/images/qrjZ66sNDiafP9fNmIbxEVILDsYUSdYAyTPksrQzAvo.original.fullsize.png)
 
-<p align="center"><img src="Images/index.png" alt="runtime" width="1000" height="800"></p>
+<p align="center"><img src="Images/index.png" alt="runtime" width="800" height="600"></p>
 
 
 
