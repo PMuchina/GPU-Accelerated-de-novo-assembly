@@ -48,7 +48,7 @@ The pipeline was first tested on a [jetson nano](https://developer.nvidia.com/em
 
 We used the [reference genome](https://www.ncbi.nlm.nih.gov/nuccore/MN194591) from the Ukranian study with a length 191,911 bp. Our pipeline gave a contig length of 191,100 bp which was close to the reference compred to the other mainstream tools. For the GC content our pipeline had 38.64 %. Our pipeline also had the highest [Genome fraction](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3624806/) (99.6%) compared to the other tools.
 
-![](https://cdn.mathpix.com/snip/images/FIliu8VQMeNal_MhqZrdVEQMgwY-uANVJIxu25CK1qM.original.fullsize.png)
+![](https://cdn.mathpix.com/snip/images/O-jGbMalfSc1B-MqC8fu0x0e2DYO_LY9ym1-aNoL56o.original.fullsize.png)
 
 ![](https://cdn.mathpix.com/snip/images/cyGyWYeR_mwcIfHlwcILvkxZOVf5PVWtFUC2flBcSBg.original.fullsize.png)
 
