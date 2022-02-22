@@ -27,7 +27,12 @@ We developed a pipeline that accerelates the overlap step using [Cudamapper](htt
 * [Minipolish](https://github.com/rrwick/Minipolish)
 * [minimap2](https://github.com/lh3/minimap2)
 * [Racon](https://github.com/isovic/racon)
-
+* [CUDA 11.0+](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
+* Ubuntu 18.04
+* GPU generation Pascal and later (compute capability >= 6.0)
+* gcc/g++ 5.4.0+ / 7.x.x
+* Python 3.6.7+
+* CMake (>= 3.10.2)
 
 ## GPU-Platforms 
 
