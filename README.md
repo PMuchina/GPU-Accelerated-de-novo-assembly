@@ -15,7 +15,7 @@
 
 Advances in DNA sequencing has enabled the rapid analysis of genomes, driving biological discovery. However, sequencing of complex genomes, which are very large and have a high content of repetitive sequences or many copies of similar sequences, still remains a great challenge. With improvements in long-read sequencing however, it is easier to generate high-quality sequences for complex genomes. The Overlap Layout Consensus algorithm (OLC) is best suited for long-read sequencing technologies like [PacBio](https://www.pacb.com/smrt-science/smrt-sequencing/) and [ONT](https://nanoporetech.com/applications/dna-nanopore-sequencing). Incorporating general-purpose [Graphics Processing Units](https://pubmed.ncbi.nlm.nih.gov/27402792/)(GPUs) which offer a higher computational power via their parallel capabilities speeds up the process of long-read *de novo* assembly. 
 
-We developed a pipeline that accerelates the overlap step using [Cudamapper](https://github.com/clara-parabricks/GenomeWorks). An all-vs-all overlapper GPU accelerated library optimised for long reads. [Miniasm](https://github.com/lh3/miniasm) is a very fast OLC-based de novo assembler for noisy long reads. It takes all-vs-all read self-mappings from Cudamapper as input and outputs an assembly graph in the GFA format. Different from mainstream assemblers, miniasm does not have a consensus step. We therefore use two alternatives: [Cudapoa](https://github.com/clara-parabricks/GenomeWorks) which is GPU accerated or [Minipolish](https://github.com/rrwick/Minipolish) for the consensus step. 
+We developed a pipeline that accerelates the overlap step using [Cudamapper](https://github.com/clara-parabricks/GenomeWorks). An all-vs-all overlapper GPU accelerated library optimised for long reads. [Miniasm](https://github.com/lh3/miniasm) is a very fast OLC-based de novo assembler for noisy long reads. It takes all-vs-all read self-mappings from Cudamapper as input and outputs an assembly graph in the GFA format. Different from mainstream assemblers, miniasm does not have a consensus step. We therefore used Minipolish](https://github.com/rrwick/Minipolish) for the consensus step. 
 
 
 <p align="center"><img src="Images/pipeline.png" alt="Pipeline" width="2000" height="800"></p>
@@ -27,7 +27,7 @@ We developed a pipeline that accerelates the overlap step using [Cudamapper](htt
 * [Minipolish](https://github.com/rrwick/Minipolish)
 * [minimap2](https://github.com/lh3/minimap2)
 * [Racon](https://github.com/isovic/racon)
-* [Cudapoa](https://github.com/clara-parabricks/GenomeWorks) 
+
 
 ## GPU-Platforms 
 
