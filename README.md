@@ -70,31 +70,7 @@ We used the [reference genome](https://www.ncbi.nlm.nih.gov/nuccore/MN194591) fr
 
 ### _Salmonella enterica_
 
-Statistics without reference	Cuda_M_Mp
-# contigs	1
-# contigs (>= 0 bp)	1
-# contigs (>= 1000 bp)	1
-# contigs (>= 5000 bp)	1
-# contigs (>= 10000 bp)	1
-# contigs (>= 25000 bp)	1
-# contigs (>= 50000 bp)	1
-Largest contig	4708786
-Total length	4708786
-Total length (>= 0 bp)	4708786
-Total length (>= 1000 bp)	4708786
-Total length (>= 5000 bp)	4708786
-Total length (>= 10000 bp)	4708786
-Total length (>= 25000 bp)	4708786
-Total length (>= 50000 bp)	4708786
-N50	4708786
-N75	4708786
-L50	1
-L75	1
-GC (%)	52.39
-Mismatches	
-# N's	0
-# N's per 100 kbp	0
-
+<p align="center"><img src="Images/salmonella.jpg" alt="salmonella" width="2000" height="800"></p>
 
 
 ## License
