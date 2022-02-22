@@ -70,7 +70,7 @@ We used the [reference genome](https://www.ncbi.nlm.nih.gov/nuccore/MN194591) fr
 
 ### _Salmonella enterica_
 
-<p align="center"><img src="Images/salmonella.png" alt="salmonella" width="2000" height="800"></p>
+<p align="center"><img src="Images/salmonella.png" alt="salmonella" width="800" height="800"></p>
 
 
 ## License
