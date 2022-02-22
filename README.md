@@ -48,7 +48,7 @@ To test the pipeline, we used the [African Swine Fever Virus (ASFV)](https://mra
 
 To get a wider scope of what our pipeline could achieve, we settled for Salmonella enterica subsp enterica serovar which has a genome size ranging from 4,597,011 to 4,678,052 bp. The first case of the bacteria was reported in 1967 in a clinical trial in Cote d’Ivoire (Gao et al., 2020). The first outbreak of S. Adjame was recorded in 2017 in the United Kingdom although it was first documented in 1993. Raw data used to test our pipeline can be found in the GenBank SRA accession no. [PRJNA610035](https://www.ncbi.nlm.nih.gov/sra/SRX7862286[accn].
 
-<font color=red> NOTE:</font><font color=green> All reads were long reads from the Third generation sequencer (ONT, Minion)</font>
+<font color=red>NOTE:</font><font color=green>All reads were long reads from the Third generation sequencer (ONT, Minion)</font>
 
 The pipeline was first tested on a [jetson nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit), a small powerful light weight GPU enabled platform. To bench mark the pipeline alongside other mainstream long-read *de novo* assemblers, we moved to a [Geforce RXT 2070](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2070/). We compared our pipeline with: [Flye](https://github.com/fenderglass/Flye), [Raven](https://github.com/lbcb-sci/raven) and [Redbean](https://github.com/ruanjue/wtdbg2). To assess the assemblies, we used [Quast](http://quast.sourceforge.net/).
 
