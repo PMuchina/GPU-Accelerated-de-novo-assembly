@@ -44,12 +44,16 @@ We developed a pipeline that accerelates the overlap step using [Cudamapper](htt
 
 ## Method
 
-To test the pipeline, we used the [African Swine Fever Virus (ASFV)](https://mra.asm.org/content/9/44/e00948-20) genome which is double stranded with a size of 170 to 194 kbp. Data used was from a Virulent African Swine Fever Virus from a Domestic Pig in Ukraine under the SRA accession number [SRX6477592](https://www.ncbi.nlm.nih.gov/sra/SRX6477592[accn]). The preprocess step involved mapping the reads to the Sus scrofa 11 reference genome [GCA_000003025](https://www.ncbi.nlm.nih.gov/assembly/?term=GCF_000003025) to remove reads likely originating from the host. [minimap2](https://github.com/lh3/minimap2) map long noisy genomic reads was used at this step. The SAM output was converted to BAM using [Samtools](http://www.htslib.org/). Umapped reads were filtered out using samtools and converted to fastq format. [Porechop](https://github.com/rrwick/Porechop) was used to trim adaptors discard and sequences with middle adapters. The chopped unmapped fastq reads were used as the input in the pipeline.
+To test the pipeline, we used the [African Swine Fever Virus (ASFV)](https://mra.asm.org/content/9/44/e00948-20) genome which is double stranded with a size of 170 to 194 kbp. Data used was from a Virulent African Swine Fever Virus from a Domestic Pig in Ukraine under the SRA accession number [SRX6477592](https://www.ncbi.nlm.nih.gov/sra/SRX6477592[accn]).The preprocess step involved mapping the reads to the Sus scrofa 11 reference genome [GCA_000003025](https://www.ncbi.nlm.nih.gov/assembly/?term=GCF_000003025) to remove reads likely originating from the host. [minimap2](https://github.com/lh3/minimap2) map long noisy genomic reads was used at this step. The SAM output was converted to BAM using [Samtools](http://www.htslib.org/). Umapped reads were filtered out using samtools and converted to fastq format. [Porechop](https://github.com/rrwick/Porechop) was used to trim adaptors discard and sequences with middle adapters. The chopped unmapped fastq reads were used as the input in the pipeline.
+
+To get a wider scope of what our pipeline could achieve, we settled for Salmonella enterica subsp enterica serovar which has a genome size ranging from 4,597,011 to 4,678,052 bp. The first case of the bacteria was reported in 1967 in a clinical trial in Cote d’Ivoire (Gao et al., 2020). The first outbreak of S. Adjame was recorded in 2017 in the United Kingdom although it was first documented in 1993. Raw data used to test our pipeline can be found in the GenBank SRA accession no. [PRJNA610035](https://www.ncbi.nlm.nih.gov/sra/SRX7862286[accn]).
 
 The pipeline was first tested on a [jetson nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit), a small powerful light weight GPU enabled platform. To bench mark the pipeline alongside other mainstream long-read *de novo* assemblers, we moved to a [Geforce RXT 2070](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2070/). We compared our pipeline with: [Flye](https://github.com/fenderglass/Flye), [Raven](https://github.com/lbcb-sci/raven) and [Redbean](https://github.com/ruanjue/wtdbg2). To assess the assemblies, we used [Quast](http://quast.sourceforge.net/).
 
 
 ## Results
+
+### ASFV
 
 We used the [reference genome](https://www.ncbi.nlm.nih.gov/nuccore/MN194591) from the Ukranian study with a length 191,911 bp. Our pipeline gave a contig length of 191,100 bp which was close to the reference compred to the other mainstream tools. For the GC content our pipeline had 38.64 %. Our pipeline also had the highest [Genome fraction](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3624806/) (99.6%) compared to the other tools.
 
@@ -62,6 +66,34 @@ We used the [reference genome](https://www.ncbi.nlm.nih.gov/nuccore/MN194591) fr
 ![](https://cdn.mathpix.com/snip/images/93iwGdniE33H6aplqnsCOHKyxI1Uuy2OlEgKmy2rHFc.original.fullsize.png)
 
 <p align="center"><img src="Images/index.png" alt="runtime" width="800" height="600"></p>
+
+
+### _Salmonella enterica_
+
+Statistics without reference	Cuda_M_Mp
+# contigs	1
+# contigs (>= 0 bp)	1
+# contigs (>= 1000 bp)	1
+# contigs (>= 5000 bp)	1
+# contigs (>= 10000 bp)	1
+# contigs (>= 25000 bp)	1
+# contigs (>= 50000 bp)	1
+Largest contig	4708786
+Total length	4708786
+Total length (>= 0 bp)	4708786
+Total length (>= 1000 bp)	4708786
+Total length (>= 5000 bp)	4708786
+Total length (>= 10000 bp)	4708786
+Total length (>= 25000 bp)	4708786
+Total length (>= 50000 bp)	4708786
+N50	4708786
+N75	4708786
+L50	1
+L75	1
+GC (%)	52.39
+Mismatches	
+# N's	0
+# N's per 100 kbp	0
 
 
 
